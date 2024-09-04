@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>eCommerce Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <button id="cart-btn">Cart (0)</button>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <section class="filters">
+                <label for="sort">Sort by:</label>
+                <select id="sort">
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                </select>
+            </section>
+            <section class="products">
+                <div class="product" data-product-id="1">
+                    <img src="hello.jpg" alt="Product 1">
+                    <h2>Product 1</h2>
+                    <p>$29.99</p>
+                    <button class="view-details">View Details</button>
+                    <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+                </div>
+                <div class="product" data-product-id="2">
+                    <img src="fell.jpg" alt="Product 2">
+                    <h2>Product 2</h2>
+                    <p>$49.99</p>
+                    <button class="view-details">View Details</button>
+                    <button class="add-to-cart" data-product-id="2">Add to Cart</button>
+                </div>
+                <!-- Add more products here -->
+            </section>
+        </div>
+    </main>
+
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <p id="modal-price"></p>
+            <button id="modal-add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 eCommerce Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

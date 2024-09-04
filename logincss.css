@@ -1,0 +1,106 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Match the font from portfolio page */
+    background-color: #1e1e1e; /* Match the background color from portfolio page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #ffffff; /* Ensure text color matches the portfolio page */
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.form-box {
+    background: rgba(30, 30, 30, 0.7); /* Slightly transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    width: 70%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.9); /* Match the shadow style */
+    backdrop-filter: blur(50px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(50px); /* For Safari */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #ffffff; /* Match text color with portfolio page */
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff; /* Match text color */
+}
+
+.form-group input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #444444; /* Darker border color */
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #1e1e1e; /* Match background color */
+    color: #ffffff; /* Match text color */
+}
+
+.error {
+    color: #ff007f; /* Match error color with portfolio page */
+    font-size: 12px;
+    display: none;
+}
+
+button {
+    background-color: #ff007f; /* Match button color with portfolio page */
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 80%;
+    margin-left: 30px;
+}
+
+button:hover {
+    background-color: #e60072; /* Match hover color with portfolio page */
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff; /* Match text color */
+}
+
+a {
+    color: #ff007f; /* Match link color with portfolio page */
+    text-decoration: none;
+}
+
+
+
+.button {
+    display: inline-block;
+    background-color: #e60072;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 75%;
+    margin-left: 30px;
+}
+
+.button:hover {
+    background-color: silver;
+}
